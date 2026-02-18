@@ -19,13 +19,13 @@ addButton.addEventListener("click", addTask);
 let taskList=[];
 
 function addTask(){
-    let taskContent=taskInput.value;
     let task={
         id: randomIDGenerate(),
         taskContent: taskInput.value,
         isComplete:false,
     }
     taskList.push(task);
+    taskInput.value=""
     console.log(taskList);
     render();
 }
