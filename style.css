@@ -36,3 +36,32 @@ body{
     top:42px;
     padding: 0px;
 }
+
+.task-complete{
+    background-color: lightgrey;
+}
+
+.task-done{
+    text-decoration: line-through;
+}
+
+.task-buttons{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.icon-btn{
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 6px 8px;
+    border-radius: 8px;
+    transition: background-color 0.2s, transform 0.1s;
+    font-size: 1.1em;
+}
+
+.icon-btn:hover{
+    background-color: rgba(177, 151, 252, 0.15);
+    transform: scale(1.15);
+}
