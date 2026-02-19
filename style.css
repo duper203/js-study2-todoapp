@@ -20,6 +20,7 @@ body{
 }
 .task-tabs div{
     padding: 1em;
+    cursor: pointer;
 }
 .task{
     display: flex;
@@ -31,10 +32,10 @@ body{
     height: 6px;
     background-color: aqua;
     position: absolute;
-    width: 50px;
-    left: 0px;
+    width: 53px;
     top:42px;
     padding: 0px;
+    transition: 0.5s;
 }
 
 .task-complete{
